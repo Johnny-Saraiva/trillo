@@ -10,6 +10,12 @@
     "compress:css": "node-sass css/style.prefix.css css/style.css --output-style compressed",
     "build:css": "npm-run-all compile:sass prefix:css compress:css"
   },
+  "author": "Johnny Saraiva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Johnny-Saraiva/trillo/issues"
+  },
+  "homepage": "https://github.com/Johnny-Saraiva/trillo#readme",
   "devDependencies": {
     "autoprefixer": "^9.8.6",
     "concat": "^1.0.3",
